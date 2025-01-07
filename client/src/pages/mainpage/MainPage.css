@@ -1,0 +1,28 @@
+.main-page {
+  background-color: var(--background-dark);
+  color: var(--background-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-container {
+  width: 100%;
+}
+
+
+.featured-movie {
+  position: relative;
+  color: #fff;
+}
+
+.movie-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.featured-poster {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

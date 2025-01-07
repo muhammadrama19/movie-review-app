@@ -1,0 +1,23 @@
+.lists{
+  background-color: var(--background-dark);
+}
+.lists .wrapperList {
+  position: relative;
+}
+
+.lists .wrapperList .sliderArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.lists .wrapperList .back {
+  left: 10px;
+}
+
+.lists .wrapperList .forward {
+  right: 10px;
+}

@@ -1,0 +1,83 @@
+.custom-navbar {
+    width: 100vw; 
+    position: fixed; 
+    top: 0;
+    z-index: 1050; 
+    overflow: hidden; 
+  }
+  
+
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  color: var(--primary-color); 
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.brand-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+.nav-link {
+  font-size: 1rem;
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid var(--primary-color); 
+}
+
+
+#language-dropdown {
+  font-size: 1rem;
+  z-index: 1060;
+}
+
+
+
+.subscribe-button {
+  background-color: var(--primary-color); 
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.subscribe-button:hover {
+  background-color: var(--primary-color); 
+}
+
+.language-dropdown {
+  font-size: 1rem;
+  z-index: 1040;
+}
+
+
+@media (max-width: 991px) {
+  .brand-text {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .subscribe-button {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }

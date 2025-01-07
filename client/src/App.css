@@ -1,8 +1,13 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+  
+  --primary-color: #4643df;
+  --secondary-color: #974ec7;
+  --background-dark: #1b1931;
+  --background-light: #f4f4f4;
+
+  --primary-color-hover: #3c3abf;
+  --secondary-color-hover: #8c4ec7;
 }
 
 .logo {
@@ -31,10 +36,6 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
 }
 
 .read-the-docs {
