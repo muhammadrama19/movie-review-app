@@ -14,9 +14,13 @@ function App() {
 
   return (
     <>
-      <Navbar/>
+    <div className='App'>
+    <Navbar/>
     
-      <MainPage/>
+    <MainPage/>
+
+    </div>
+    
 
       
 

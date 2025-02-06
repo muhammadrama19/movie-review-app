@@ -1,0 +1,21 @@
+.filter-bar {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 75vh;
+    overflow: auto;
+  }
+  
+  .filter-bar h5 {
+    margin-bottom: 1rem;
+  }
+  
+  .filter-bar .MuiFormControl-root {
+    margin-bottom: 1.5rem;
+  }
+  
+  .filter-bar .MuiButton-root {
+    margin-top: 1rem;
+  }
+  
